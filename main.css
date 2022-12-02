@@ -105,8 +105,9 @@ body {
   width: 161px;
   height: 119px;
   text-align: center;
-  top: 35%;
-  left: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .home .main__nav-content-about-text img, .home .main__nav-content-service-text img, .home .main__nav-content-portfolio-text img, .home .main__nav-content-contact-text img {
   width: 60px;

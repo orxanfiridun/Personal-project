@@ -98,6 +98,7 @@ body {
             overflow: hidden;
             position: absolute;
             transition: 1.5s;
+
             &:hover {
               width: 115%;
               height: 115%;
@@ -110,8 +111,9 @@ body {
             width: 161px;
             height: 119px;
             text-align: center;
-            top: 35%;
-            left: 25%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             & img {
               width: 60px;
               height: 60px;
