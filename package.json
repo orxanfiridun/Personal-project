@@ -8,10 +8,10 @@
     "watch:sass": "--watch main.scss",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
-    "compile:sass": " main.scss ",
-    "concat:css": "concat -o css/style.concat.css ",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css",
-    "compress:css": "css/style.prefix.css "
+    "compile:sass": "sass main.scss main.css",
+    "concat:css": "concat -o main.concat.css ",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' main.concat.css -o main.prefix.css",
+    "compress:css": "main.prefix.css "
   },
 
   "devDependencies": {
